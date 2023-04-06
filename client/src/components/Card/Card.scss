@@ -1,0 +1,44 @@
+.card {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    &__img {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+        }
+
+        &-main {
+            z-index: 1;
+        }
+        
+        &:hover {
+            .card__img-second {
+                z-index: 2;
+            }
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px 0px;
+    }
+
+    &__prices {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}

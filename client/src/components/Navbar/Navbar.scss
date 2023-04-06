@@ -1,0 +1,70 @@
+.navbar {
+    border-bottom: 1px solid #000;
+
+    &__wrapper {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        height:50px;
+    }
+
+    &__item {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 4px 6px;
+        border: 1px solid #fff;
+        border-radius: .25rem;
+
+        &:hover {
+            border: 1px solid #000
+        } 
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__center {
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+
+        &-icons {
+            display: flex;
+            gap: 15px;
+            cursor: pointer;
+        }
+
+        &-icons > div {
+            height: 12px;
+        }
+
+        &-cartIcon {
+            position: relative;
+
+            span {
+                font-size: 12px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #000;
+                color: white;
+                position: absolute;
+                right: -10px;
+                top: -10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

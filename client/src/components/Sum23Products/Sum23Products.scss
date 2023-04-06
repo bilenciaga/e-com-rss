@@ -1,0 +1,18 @@
+.sum23Products {
+
+    &__title {
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__itemCard {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
