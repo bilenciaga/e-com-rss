@@ -3,7 +3,7 @@ import './Footer.scss'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__upper">
         <div className="footer__upper-item">
           <h4>newsletter</h4>
@@ -36,7 +36,7 @@ const Footer = () => {
           <p>© 2022 bsianstore</p>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
