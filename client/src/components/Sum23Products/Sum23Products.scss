@@ -2,13 +2,15 @@
 
     &__title {
         padding: 50px 0;
-        display: flex;
-        justify-content: center;
+        display: block;
+        text-align: center;
     }
+
     &__itemCard {
         display: flex;
         justify-content: center;
         gap: 20px;
+        margin-bottom: 50px;
     }
 }
 
